@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand0"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tbtnBrand0"
+        android:layout_below="@+id/tbtnBrand0"
+        android:layout_marginTop="13dp"
+        android:text="Toyota" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/tbtnBrand0"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/textView80"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tbtnBrand1"
+        android:layout_alignStart="@+id/tbtnBrand1"
+        android:layout_alignTop="@+id/textView80"
+        android:text="賓士"
+        android:textAlignment="center" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/tbtnBrand1"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/tbtnBrand1"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tbtnBrand2"
+        android:layout_alignTop="@+id/textView81"
+        android:text="法拉利" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView80"
+        android:layout_below="@+id/textView80"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tbtnBrand4"
+        android:layout_alignStart="@+id/tbtnBrand4"
+        android:layout_below="@+id/tbtnBrand4"
+        android:layout_marginTop="17dp"
+        android:text="福特"
+        android:textAlignment="center" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/tbtnBrand2"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/textView83"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tbtnBrand3"
+        android:layout_alignStart="@+id/tbtnBrand3"
+        android:layout_alignTop="@+id/textView83"
+        android:text="福斯"
+        android:textAlignment="center" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView81"
+        android:layout_alignTop="@+id/tbtnBrand4"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView85"
+        android:layout_alignStart="@+id/tbtnBrand5"
+        android:text="Honda" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView83"
+        android:layout_alignTop="@+id/tbtnBrand5"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tbtnBrand6"
+        android:layout_alignTop="@+id/textView87"
+        android:text="藍寶堅尼" />
+
+    <ToggleButton
+        android:id="@+id/tbtnBrand7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView86"
+        android:layout_alignTop="@+id/tbtnBrand6"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView88"
+        android:layout_alignEnd="@+id/tbtnBrand7"
+        android:layout_alignStart="@+id/tbtnBrand7"
+        android:text="寶馬"
+        android:textAlignment="center" />
+
+</RelativeLayout>

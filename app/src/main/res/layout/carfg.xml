@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnqcar"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="49dp"
+        android:background="@mipmap/quickcar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnphonebook"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_above="@+id/textView3"
+        android:layout_marginStart="54dp"
+        android:layout_toEndOf="@+id/btnqcar"
+        android:background="@mipmap/callcar3" />
+
+    <Button
+        android:id="@+id/btnmapcar"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="120dp"
+        android:background="@mipmap/mapcar"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnreservecar"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignTop="@+id/btnmapcar"
+        android:background="@mipmap/reservecar2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnqcar"
+        android:layout_alignStart="@+id/btnqcar"
+        android:layout_below="@+id/btnqcar"
+        android:text="快速叫車"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/btnphonebook"
+        android:layout_alignStart="@+id/btnphonebook"
+        android:text="通訊錄"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnmapcar"
+        android:layout_alignStart="@+id/btnmapcar"
+        android:layout_below="@+id/btnmapcar"
+        android:text="地圖叫車"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="預約叫車"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:layout_below="@+id/btnreservecar"
+        android:layout_alignStart="@+id/btnreservecar"
+        android:layout_alignEnd="@+id/btnreservecar" />
+
+</RelativeLayout>

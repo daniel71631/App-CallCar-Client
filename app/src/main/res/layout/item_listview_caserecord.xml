@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDriverName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="24sp"
+        android:textColor="#00f"
+        android:text="TextView"
+        android:layout_marginStart="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/txtMapDriverSexDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView43"
+        android:layout_alignBottom="@+id/textView43"
+        android:layout_alignStart="@+id/txtDriverName"
+        android:layout_marginStart="9dp" />
+
+    <TextView
+        android:id="@+id/txtMapDriverAgeDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/txtCaseFares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/txtMapDriverAgeDetail"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/txtroute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtCaseFares"
+        android:layout_below="@+id/txtCaseFares"
+        android:layout_marginTop="13dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtCaseNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtCaseFares"
+        android:layout_alignStart="@+id/txtMapDriverAgeDetail"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtRoute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtCaseFares"
+        android:layout_below="@+id/txtCaseFares"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtDriverName"
+        android:layout_alignParentStart="true"
+        android:text="司機名稱"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乘車時間"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtRoute"
+        android:layout_toEndOf="@+id/txtroute" />
+
+</RelativeLayout>

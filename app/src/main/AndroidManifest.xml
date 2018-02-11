@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.daniel.try_loggin">
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+<application
+    android:name=".SocketApplication"
+    android:allowBackup="true" android:icon="@mipmap/logo5" android:label="叫車好夯"
+    android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+    <activity android:name=".applogo">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".MainActivity"></activity>
+    <activity android:name=".RegisterActivity" />
+    <activity android:name=".Register2Activity" />
+    <activity android:name=".NavigationMainActivity" android:label="" android:theme="@style/AppTheme" />
+    <activity android:name=".settingprefernce" />
+    <activity android:name="com.example.daniel.try_loggin.testrecycleview"></activity>
+    <activity android:name=".aboutusActivity">
+        <intent-filter>
+            <action android:name="aboutus.string" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".termsActivity">
+        <intent-filter>
+            <action android:name="terms.string" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".changepasswordActivity">
+        <intent-filter>
+            <action android:name="changepassword.string" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".changemailActivity">
+        <intent-filter>
+            <action android:name="cgmail.string" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".forgetpasswordActivity" />
+    <activity android:name=".PhonebookActivity" />
+    <activity android:name=".carstoreActivity" />
+    <activity android:name=".Reservecar" />
+    <activity android:name=".calendar" />
+    <activity android:name=".updatecalendar" />
+    <activity android:name=".Verification" />
+    <activity android:name=".drivernumActivity"></activity>
+    <activity android:name=".checkquickcar"></activity>
+    <activity android:name=".testmaplocation"></activity>
+    <activity android:name=".tryMapsActivity"></activity>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="WrongManifestParent" />
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:ignore="WrongManifestParent" />
+    <uses-permission android:name="com.tonycube.googlemapdemo.permission.MAPS_RECEIVE"
+        tools:ignore="WrongManifestParent" />
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:ignore="WrongManifestParent" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="WrongManifestParent" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"
+        tools:ignore="WrongManifestParent" />
+
+
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAksnm-DhwRQkb6Lw391Go2usfUDNyP3HI" />
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
+
+    <activity android:name="com.example.daniel.try_loggin.testMapsActivity" android:label="@string/title_activity_test_maps"></activity>
+    <activity android:name=".pair"></activity>
+    <activity android:name=".PairFalse"></activity>
+    <activity android:name=".quickcar_driver_information"></activity>
+    <activity android:name=".GoogleMapTrace"></activity>
+    <activity android:name=".CaseRecord"></activity>
+    <activity android:name=".CaseRecordDetail"></activity>
+    <activity android:name=".CaseMapRoute"></activity>
+    <activity android:name=".MapCarmap"></activity>
+    <activity android:name=".MapCarmap2"></activity>
+    <activity android:name=".pairMapDriver"></activity>
+    <activity android:name=".MapDriverList"></activity>
+    <activity android:name=".MapDriverDetail"></activity>
+    <activity android:name=".MapCar_ClientDestination"></activity>
+    <activity android:name=".MapCaseFares"></activity>
+    <activity android:name=".mapcar_driver_information"></activity>
+    <activity android:name=".FilterDriver"></activity>
+    <activity android:name=".FilterDriverList"></activity>
+    <service android:name=".TestSokcetOnService"></service>
+
+    <service android:name=".MyInstanceIDService">
+        <intent-filter>
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+        </intent-filter>
+    </service>
+
+    <service android:name=".MyFireBaseReceiveMessage">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+        </intent-filter>
+    </service>
+
+
+</application>
+</manifest>

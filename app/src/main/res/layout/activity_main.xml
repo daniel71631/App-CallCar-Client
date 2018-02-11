@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@color/cardview_light_background"
+    tools:context="com.example.daniel.try_loggin.MainActivity">
+
+    <EditText
+
+        android:id="@+id/etxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etxt2"
+        android:layout_alignStart="@+id/etxt2"
+        android:layout_marginBottom="20dp"
+        android:background="#e1ea9a"
+        android:drawableStart="@mipmap/man_launcher"
+        android:ems="15"
+        android:hint="帳號"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnmapno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="#e1ea9a"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:ems="15"
+        android:hint="密碼"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnqcar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/txtlo"
+        android:layout_alignEnd="@+id/txtlo"
+        android:layout_marginBottom="49dp"
+        android:layout_marginEnd="64dp"
+        android:background="@mipmap/loggin"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnmapno"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/btnqcar"
+        android:layout_alignEnd="@+id/etxt2"
+        android:layout_marginEnd="54dp"
+        android:background="@mipmap/register"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtlo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnmapyes"
+        android:layout_centerHorizontal="true"
+        android:text="忘記密碼"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnmapyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etxt2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:text="test"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnmapno"
+        android:layout_alignStart="@+id/btnmapno"
+        android:layout_below="@+id/btnmapno"
+        android:text="註冊"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/etxt1"
+        android:layout_alignStart="@+id/btnqcar"
+        app:srcCompat="@mipmap/title" />
+
+    <TextView
+        android:id="@+id/txtMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etxt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:fontFamily="@font/bangers"
+        android:text="your best choice"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btntest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnmapyes"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/txtlo"
+        android:text="Button" />
+
+</RelativeLayout>

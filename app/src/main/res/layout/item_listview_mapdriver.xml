@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_viewmapdriver"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="7dp"
+    card_view:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtmapdriverlist_drivername"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView23"
+            android:layout_alignBottom="@+id/textView23"
+            android:layout_alignStart="@+id/txtmapdriverlist_distance"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtmapdriverlist_distance"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView24"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/textView24"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtcasestyle"
+            android:layout_marginTop="19dp"
+            android:text="司機名稱"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="22dp"
+            android:text="離你的距離"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtmapdriverlist_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtmapdriverlist_drivername"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:text="TextView"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

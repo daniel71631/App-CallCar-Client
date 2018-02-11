@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="28dp"
+        android:text="司機名稱:" />
+
+    <TextView
+        android:id="@+id/txtFilterChoosenDriverName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView84"
+        android:layout_marginStart="34dp"
+        android:layout_toEndOf="@+id/textView84"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="司機性別:"
+        android:layout_below="@+id/textView84"
+        android:layout_alignStart="@+id/textView84" />
+
+    <TextView
+        android:id="@+id/txtFilterDirverSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtFilterChoosenDriverName"
+        android:layout_alignTop="@+id/textView91"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView91"
+        android:layout_below="@+id/textView91"
+        android:layout_marginTop="12dp"
+        android:text="司機年齡:" />
+
+    <TextView
+        android:id="@+id/txtFilterDriverAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView93"
+        android:layout_alignStart="@+id/txtFilterDirverSex"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView93"
+        android:layout_below="@+id/textView93"
+        android:layout_marginTop="12dp"
+        android:text="司機電話"
+        android:layout_alignStart="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/txtFilterDriverPhone"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:layout_alignBaseline="@+id/textView95"
+        android:layout_alignBottom="@+id/textView95"
+        android:layout_alignStart="@+id/txtFilterDriverAge" />
+
+    <TextView
+        android:id="@+id/textView97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView93"
+        android:layout_below="@+id/textView95"
+        android:layout_marginTop="10dp"
+        android:text="汽車種類" />
+
+    <TextView
+        android:id="@+id/txtFilterCarKind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView97"
+        android:layout_alignStart="@+id/txtFilterDriverPhone"
+        android:text="TextView"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView95"
+        android:layout_below="@+id/textView97"
+        android:layout_marginTop="11dp"
+        android:text="汽車顏色"
+        android:layout_alignStart="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/txtFilterCarColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView99"
+        android:layout_alignStart="@+id/txtFilterCarKind"
+        android:text="TextView"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="品牌"
+        android:layout_below="@+id/textView99"
+        android:layout_alignStart="@+id/textView99"
+        android:layout_alignEnd="@+id/textView99" />
+
+    <TextView
+        android:id="@+id/txtFilterCarBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView101"
+        android:layout_alignStart="@+id/txtFilterCarColor"
+        android:text="TextView"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView101"
+        android:layout_below="@+id/textView101"
+        android:layout_marginTop="11dp"
+        android:text="車齡" />
+
+    <TextView
+        android:id="@+id/txtFilterCarAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView103"
+        android:layout_alignStart="@+id/txtFilterCarBrand"
+        android:text="TextView"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="最大載客數"
+        android:layout_below="@+id/textView103"
+        android:layout_alignStart="@+id/textView103" />
+
+    <TextView
+        android:id="@+id/txtFilterPassengerCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView105"
+        android:layout_alignStart="@+id/txtFilterCarAge"
+        android:text="TextView"
+        android:textAlignment="textStart" />
+</RelativeLayout>

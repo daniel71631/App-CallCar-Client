@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:layout_alignBaseline="@+id/etxt1"
+        android:layout_alignBottom="@+id/etxt1"
+        android:layout_alignStart="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/etxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginStart="23dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乘車地點"
+        android:layout_marginEnd="43dp"
+        android:layout_alignBottom="@+id/etxt2"
+        android:layout_toStartOf="@+id/btn" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目的地"
+        android:layout_alignBaseline="@+id/etxt3"
+        android:layout_alignBottom="@+id/etxt3"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乘車時間"
+        android:layout_alignBottom="@+id/etxt4"
+        android:layout_alignStart="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/etxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/etxt1"
+        android:layout_alignStart="@+id/etxt1" />
+
+    <EditText
+        android:id="@+id/etxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/etxt2"
+        android:layout_alignStart="@+id/etxt2" />
+
+    <EditText
+        android:id="@+id/etxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_below="@+id/etxt3"
+        android:layout_alignStart="@+id/etxt3" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新增"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="60dp"
+        android:text="選擇司機" />
+
+    <TextView
+        android:id="@+id/txtChooseFilterDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView82"
+        android:layout_alignEnd="@+id/etxt4"
+        android:layout_alignStart="@+id/etxt4"
+        android:text="TextView"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtLookForDriverDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtChooseFilterDriver"
+        android:layout_below="@+id/txtChooseFilterDriver"
+        android:layout_marginTop="15dp"
+        android:text="查看司機詳細資料"
+        android:clickable="true"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

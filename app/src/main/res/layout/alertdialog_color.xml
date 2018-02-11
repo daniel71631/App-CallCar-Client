@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/tbtnColor0"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="白色"
+        android:textAlignment="center"
+        android:layout_below="@+id/tbtnColor0"
+        android:layout_alignEnd="@+id/tbtnColor0"
+        android:layout_alignStart="@+id/tbtnColor0" />
+
+    <ToggleButton
+        android:id="@+id/tbtnColor1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/tbtnColor0"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/tbtnColor0"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView74"
+        android:layout_alignEnd="@+id/tbtnColor1"
+        android:layout_alignStart="@+id/tbtnColor1"
+        android:text="黃色"
+        android:textAlignment="center" />
+
+    <ToggleButton
+        android:id="@+id/tbtnColor2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="39dp"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "
+        android:layout_alignBottom="@+id/tbtnColor1"
+        android:layout_toEndOf="@+id/tbtnColor1" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView75"
+        android:layout_alignEnd="@+id/tbtnColor2"
+        android:layout_alignStart="@+id/tbtnColor2"
+        android:text="紅色"
+        android:textAlignment="center" />
+
+    <ToggleButton
+        android:id="@+id/tbtnColor3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView74"
+        android:layout_below="@+id/textView74"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" " />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tbtnColor3"
+        android:layout_alignStart="@+id/tbtnColor3"
+        android:layout_below="@+id/tbtnColor3"
+        android:layout_marginTop="13dp"
+        android:text="藍色"
+        android:textAlignment="center" />
+
+    <ToggleButton
+        android:id="@+id/tbtnColor4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView75"
+        android:layout_alignTop="@+id/tbtnColor3"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView77"
+        android:layout_alignStart="@+id/tbtnColor4"
+        android:text="銀灰色" />
+
+    <ToggleButton
+        android:id="@+id/tbtnColor5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView76"
+        android:layout_alignTop="@+id/tbtnColor4"
+        android:background="@drawable/togglebutton_no"
+        android:text="ToggleButton"
+        android:textOff=" "
+        android:textOn=" "/>
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tbtnColor5"
+        android:layout_alignStart="@+id/tbtnColor5"
+        android:layout_alignTop="@+id/textView78"
+        android:text="黑色"
+        android:textAlignment="center" />
+</RelativeLayout>

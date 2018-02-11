@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "528660305678",
+    "firebase_url": "https://fir-node-aria.firebaseio.com",
+    "project_id": "fir-node-aria",
+    "storage_bucket": "fir-node-aria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528660305678:android:eeddff2a01f6c76d",
+        "android_client_info": {
+          "package_name": "com.example.daniel.try_loggin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528660305678-nqtaimk1p7irpa79u76gs7a7onr50nh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr9xBPRoip_MNYc0FFxZi8fqxx0ryBJbE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
